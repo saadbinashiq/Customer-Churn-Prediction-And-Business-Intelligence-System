@@ -1,0 +1,52 @@
+{
+  "best_model": "Logistic Regression",
+  "features": [
+    "Age",
+    "Gender",
+    "Account_Age_Months",
+    "Contract_Type",
+    "Internet_Service",
+    "Phone_Service",
+    "Streaming_Service",
+    "Monthly_Charges",
+    "Total_Charges",
+    "Monthly_Usage_GB",
+    "Number_of_Sessions",
+    "Support_Calls",
+    "Complaints",
+    "Payment_Method",
+    "Payment_Delay_Rate",
+    "Usage_Change_Percentage",
+    "Customer_Lifetime_Months",
+    "Average_Monthly_Spend",
+    "Support_Calls_Per_Month",
+    "Service_Count"
+  ],
+  "numeric_features": [
+    "Age",
+    "Account_Age_Months",
+    "Monthly_Charges",
+    "Total_Charges",
+    "Monthly_Usage_GB",
+    "Number_of_Sessions",
+    "Support_Calls",
+    "Complaints",
+    "Payment_Delay_Rate",
+    "Usage_Change_Percentage",
+    "Customer_Lifetime_Months",
+    "Average_Monthly_Spend",
+    "Support_Calls_Per_Month",
+    "Service_Count"
+  ],
+  "categorical_features": [
+    "Gender",
+    "Contract_Type",
+    "Internet_Service",
+    "Phone_Service",
+    "Streaming_Service",
+    "Payment_Method"
+  ],
+  "train_rows": 4000,
+  "test_rows": 1000,
+  "churn_rate": 0.1712
+}
